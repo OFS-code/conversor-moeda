@@ -18,7 +18,7 @@ public class Principal  {
             
             ****************************************************
             
-            $$ Seja bem-vindo(a) ao Conversor de Moedas $$
+            $$ Conversor de Moedas $$
             
             1- Dólar >> Peso argentino
             2- Peso argentino >> Dólar
