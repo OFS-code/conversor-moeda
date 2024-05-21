@@ -1,11 +1,21 @@
-# conversor-moeda
+# Conversor de Moeda com API ExchangeRate em Java
 
+Este é um conversor de moeda simples desenvolvido em Java que utiliza a API ExchangeRate para realizar conversões entre várias moedas. As conversões disponíveis são:
 
+1. Dólar (USD) para Peso Argentino (ARS)
+2. Peso Argentino (ARS) para Dólar (USD)
+3. Dólar (USD) para Real Brasileiro (BRL)
+4. Real Brasileiro (BRL) para Dólar (USD)
+5. Dólar (USD) para Peso Colombiano (COP)
+6. Peso Colombiano (COP) para Dólar (USD)
+7. Dólar (USD) para Peso Chileno (CLP)
+8. Peso Chileno (CLP) para Dólar (USD)
+9. Sair
 
+## Como Executar
 
-### Detalhes adicionais
-
-1. **Conversão de Moedas**: Este README presume que o script `conversor_de_moeda.py` realiza as conversões e exibe os resultados. Certifique-se de implementar a lógica de conversão no script.
-2. **Taxas de Conversão**: As taxas de câmbio podem ser fixas ou obtidas de uma API de câmbio em tempo real. Dependendo da sua implementação, você pode precisar adicionar uma seção sobre como configurar a API ou atualizar as taxas de câmbio.
-3. **Instalação de Dependências**: Se o script depende de bibliotecas externas, como `requests` para chamadas de API, liste-as no arquivo `requirements.txt`.
-
+1. **Compilação e Execução:**
+   Certifique-se de ter o JDK (Java Development Kit) instalado em seu sistema.
+   Para compilar o programa, abra o terminal, navegue até o diretório do projeto e execute:
+   ```bash
+   javac ConversorDeMoeda.java
